@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.4.0]
+- ILIAS 6 support
+- Remove ILIAS 5.3 support
+- Min. PHP 7.0
+- Separate legacy cron job to `ViMPCron` wrapper plugin
+
+## [1.3.9]
+- Fix VIMP server 4.2.9 config need admin token
+- Fix Docker-ILIAS log
+- Not show hidden videos in repository object list preview
+- Fix direct link to hidden videos access check
+
+## [1.3.8]
+- Get LP permission operations ids dynamic
+- Revert wrong description line breaks try from v1.3.7
+- Description line breaks in content tab (All 4 views) and add inline scroller if needed
+
+## [1.3.7]
+- Description line breaks
+
+## [1.3.6]
+- Bugfix: Introduced LP permissions
+
 ## [1.3.5]
 - Bugfix: fixed direct link for content player (don't open modal)
 - Bugfix: changed to mb_substr to avoid umlaut bugs
